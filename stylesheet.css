@@ -3,6 +3,11 @@ li{
   list-style: none;
 }
 
+*{
+  box-sizing: border-box;
+
+}
+
 .clear{
   clear: left;
 }
@@ -36,4 +41,34 @@ header{
   float:left;
   padding-right: 10px;
 
+}
+
+.top-wrapper{
+  margin-top: 100px;
+  padding-top:20px;
+ width:auto;
+ height: 1000px;
+ background-color: #EEEEEE	;
+ float: left;
+ text-align: center;
+ display: inline;
+}
+
+.body-container{
+  flex-direction: column;
+}
+
+
+
+footer{
+
+}
+
+.footer-logo{
+  float: left;
+}
+
+.instalink{
+  float: right;
+  font-size: 30px;
 }
